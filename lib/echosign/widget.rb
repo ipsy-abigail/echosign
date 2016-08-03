@@ -162,15 +162,15 @@ module Echosign
       #   }
       # }
       
-      merge!({ 
-        widgetCreationInfo: {
-          name,
-          fileInfos, 
-          signatureFlow, 
-          widget_completion_info,
+      #merge!({ 
+      #  widgetCreationInfo: {
+      #    name,
+      #    fileInfos, 
+      #    signatureFlow, 
+      #    widget_completion_info,
 
-        } 
-      })
+      #  } 
+      #})
     end
 
   end
